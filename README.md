@@ -25,7 +25,7 @@ Feature	Description
 
 # Run Locally
 - In gitbash in the terminal of VScode run:
-  git clone https://github.com/yourusername/portfolio-website.git
+  git clone https://github.com/lutfeeyacupido/Portfolio2026.git
   cd portfolio2026
 - Then open index.html in your browser
 
