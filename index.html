@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Lutfeeya Cupido | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button class="dark-toggle-fixed" id="darkModeToggle" aria-label="Theme toggle">
+        <span id="toggleIcon">💚</span> 
+        <span id="toggleText">Green mode</span>
+    </button>
+
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">✨ Entry-Level Developer</div>
+            <h1 class="hero-title">Lutfeeya Cupido</h1>
+            <p class="hero-subtitle">Designing the Frontend, Securing the Backend</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" id="contactMeBtn">📬 Contact Me</button>
+                <button class="btn-secondary" id="projectsScrollBtn">⬇ View Projects</button>
+            </div>
+            <div class="skills-strip-hero">
+                <span class="skill-chip">HTML</span>
+                <span class="skill-chip">CSS</span>
+                <span class="skill-chip">JavaScript</span>
+                <span class="skill-chip">Node Express</span>
+                <span class="skill-chip">MySQL</span>
+                <span class="skill-chip">Oracle</span>
+                <span class="skill-chip">Oracle APEX</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="grid-2col">
+            <div class="card">
+                <h3>📖 About Me</h3>
+                <p class="desc-text">I'm an entry-level developer who blends code with creativity, bringing together my passions for design, photography, and web development. I love building websites that aren't just functional, but also visually compelling and thoughtfully composed, much like a well-framed photograph. <br><br> Whether I'm adjusting a layout's balance, choosing a color palette, or capturing the right image to tell a story, I approach every project with an eye for detail and a desire to create seamless, human-centered digital experiences. For me, development isn't just about logic, it is a form of expression, and I'm excited to keep learning, experimenting, and crafting work that feels as good as it works.</p>
+            </div>
+            <div class="card">
+                <h3>⚡ Skills</h3>
+                <p class="desc-text">Core technical competencies that make me stand out.</p>
+                <ul class="competency-list">
+                    <li>Full-stack Web Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Database Management (MySQL, Oracle)</li>
+                    <li>Oracle APEX Development</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class="section-title">🚀 Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">🛒</div>
+                <h4>E-commerce Platform</h4>
+                <p class="desc-text">I was apart of a team that built a fully functional e-commerce platform with secure payments, user authentication, and product management called CampusGlow.</p>
+                <ul class="project-stats">
+                    <li>⭐ User friendly</li>
+                    <li>💳 Secure payments</li>
+                </ul>
+                <a href="https://github.com/natheefahrayners/CampusGlow.git" target="_blank" class="github-link-full">
+                    🐙 View Source Code on GitHub
+                </a>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">📷</div>
+                <h4>Personal Photography Gallery</h4>
+                <p class="desc-text">This is a personal project that I made to showcase my personal photography as well as test my ability to build a website from scratch, that showcases one of my hobbies.</p>
+                <ul class="project-stats">
+                    <li>📸 40+ photos by me</li>
+                    <li>🎨 Custom gallery design</li>
+                </ul>
+                <a href="https://lutfeeya-s-gallery.vercel.app/" target="_blank" class="github-link-full">
+                    🐙 View Website
+                </a>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">📊</div>
+                <h4>Analytics Dashboard</h4>
+                <p class="desc-text">This is a dashboard for analyzing the business metrics of OT Interprises with Oracle APEX backend and interactive charts and graphs.</p>
+                <ul class="project-stats">
+                    <li>📈 User-friendly interface</li>
+                    <li>🗄️ Oracle APEX backend</li>
+                </ul>
+                <a href="https://www.loom.com/share/0abdf5f62fdb4239b5f4ec78c04c329f" target="_blank" class="github-link-full">
+                    🐙 View Loom Video
+                </a>
+            </div>
+        </div>
+
+        <h3 class="section-title">📜 Certifications</h3>
+        <div class="certs-grid">
+            <div class="cert-item">
+                <strong>📱 Computer Vision</strong>
+                <span>Certification in Computer Vision in Microsoft Azure by Microsoft</span>
+            </div>
+            <div class="cert-item">
+                <strong>🤖 Machine Learning</strong>
+                <span>Certification in Machine Learning in Microsoft Azure by Microsoft</span>
+            </div>
+            <div class="cert-item">
+                <strong>📊 Data Science</strong>
+                <span>Certification in Introduction to Data Scientist by Cisco</span>
+            </div>
+            <div class="cert-item">
+                <strong>🔒 Cybersecurity</strong>
+                <span>Certification in Introduction to Cybersecurity by Cisco</span>
+            </div>
+            <div class="cert-item">
+                <strong>☁️ Cloud Computing</strong>
+                <span>Certification in Introduction to Cloud by Cognitive Class</span>
+            </div>
+        </div>
+
+        <div class="connect-section">
+            <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem;">📬 Let's Connect</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Connect with me to discuss your needs.</p>
+            <div class="connect-buttons">
+                <a href="mailto:lutfeeyacupido07@gmail.com" class="connect-btn">📧 Email</a>
+                <a href="tel:081-217-3759" class="connect-btn">📞 Phone</a>
+                <a href="https://www.linkedin.com/in/lutfeeya-cupido-a578b13b1/" class="connect-btn" id="linkedinLink">💼 LinkedIn</a>
+            </div>
+            <div style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted);">
+                <span>📩 lutfeeyacupido07@gmail.com &nbsp;&nbsp;|&nbsp;&nbsp; 📞 081-217-3759</span>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            <p>© 2026 Lutfeeya Cupido · Entry-Level Developer</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
