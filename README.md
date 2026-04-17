@@ -21,7 +21,7 @@ Feature	Description
 
 # How to Access & Use the Portfolio Website
 - Access via Vercel
-  link: 
+  link: https://portfolio2026-coral-kappa.vercel.app/
 
 # Run Locally
 - In gitbash in the terminal of VScode run:
